@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	button{
+		color: #ffffff;
+		border: none;
+		margin-right: 10px;
+		height: 22px;
+		border-radius: 3px;
+		cursor: pointer;
+		font-family: "微软雅黑";
+	}
+	.left-in,.right-in{
+		background-color: #337AB7;
+	}
+	.left-in:hover,.right-in:hover{
+		background-color: #286090;
+	}
+	.left-out,.right-out{
+		background-color: #d9534f;
+	}
+	.left-out:hover,.right-out:hover{
+		background-color: #C9302C;
+	}
+
+	div li {
+		list-style: none;
+		width: 30px;
+		height: 30px;
+		float: left;
+		background-color: #ec971f;
+		margin: 10px;
+		text-align: center;
+		line-height: 30px;
+		color: #ffffff;
+	}
+	</style>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<input type="text" id="in"></input>
+	<button class="left-in">左侧入</button><button class="right-in">右侧入</button>
+	<button class="left-out">左侧出</button><button class="right-out">右侧出</button>
+	<div></div>
+</body>
+</html>

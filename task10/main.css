@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+}
+.flex-container{
+	padding: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex-container div{
+	width: 150px;
+	margin-bottom: 20px;
+}
+.flex-item1{
+	height: 120px;
+	border: 1px solid #f00;
+}
+.flex-item2{
+	height: 100px;
+	border: 1px solid #f00;
+}
+.flex-item3{
+	height: 40px;
+	border: 1px solid #f00;
+}
+.flex-item4{
+	height: 200px;
+	border: 1px solid #0f0;
+}
+@media screen and  (max-width: 640px){
+	.flex-container{
+		align-items: flex-start;
+	}
+	.flex-item4{
+		order: -1;
+	}
+}
